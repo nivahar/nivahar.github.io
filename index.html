@@ -1,28 +1,96 @@
-<!DOCTYPE html>
-<html>
-	<head>
-		<title>Hank Quinlan, Horrible Cop</title>
-	</head>
-	<body>
-		<nav>
-    		<ul>
-        		<li><a href="/">Home</a></li>
-	        	<li><a href="/about">About</a></li>
-        		<li><a href="/cv">CV</a></li>
-        		<li><a href="/blog">Blog</a></li>
-    		</ul>
-		</nav>
-		<div class="container">
-    		<div class="blurb">
-        		<h1>Hi there, I'm Hank Quinlan!</h1>
-				<p>I'm best known as the horrible cop from <em>A Touch of Evil</em> Don't trust me. <a href="/about">Read more about my life...</a></p>
-    		</div><!-- /.blurb -->
-		</div><!-- /.container -->
-		<footer>
-    		<ul>
-        		<li><a href="mailto:hankquinlanhub@gmail.com">email</a></li>
-        		<li><a href="https://github.com/hankquinlan">github.com/hankquinlan</a></li>
-			</ul>
-		</footer>
-	</body>
-</html>
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="Timepicki is a light weight jQuery Timepicker plugin for using in form submission websites who need to fill time in online forms, timepicker plugin is extends with jquery library so timepicker must need jquery plugin for dependency, timepicker have more option to set time in input filed with dropdown">
+    <meta name="keywords" content="timepicki, timepicker, free time picker, jquery plugins, jquery library">
+    <meta name="author" content="senthil2rajan">
+
+    <title>TimePicki - jQuery Timepicker plugin Demo and documentation</title>
+
+    <!-- Bootstrap core CSS -->
+    <link href="css/bootstrap.css" rel="stylesheet">
+
+    <!-- Custom styles for this template -->
+    <link href="css/style.css" rel="stylesheet">
+    <link href="css/timepicki.css" rel="stylesheet">
+  </head>
+
+  <body>
+
+    <div class="site-wrapper">
+
+      <div class="site-wrapper-inner">
+		
+        <div class="cover-container">
+		<!-- This div for advertisement purpose -->
+		<div style="float:left; width: 100%; border:1px solid #ccc; margin-bottom: 20px; padding: 5px; margin-top:80px;">
+			<span style="color:#ccc">Promotion Ad</span>
+			<a href="https://senthilraj.github.io/CheckInApp/" target="_blank">
+				<img src="Attendance-Track-Management.jpg" style="width:100%" alt="Attendance Management and employee management system">
+			</a>
+		</div>
+          <div class="masthead clearfix">
+            <div class="inner">
+              <h3 class="masthead-brand">TimePicki v2.0</h3>
+              <nav>
+                <ul class="nav masthead-nav">
+                  <li class="active"><a href="index.html">Home</a></li>
+                  <li><a href="features.html">Features</a></li>
+		  <li><a href="howtouse.html">How to use</a></li>
+		  <li><a href="options.html">Options</a></li>
+                  <li><a href="contact.html">Contact</a></li>
+                </ul>
+              </nav>
+            </div>
+          </div>
+
+          <div class="inner cover indexpicker">
+            <h1 class="cover-heading">Timepicki - jQuery Time Picker</h1>
+            <p class="lead">Timepicki is a light weight jQuery Time Picker plugin for using in form submission websites. User can easily pick time in the form with using it.</p>
+	    <div class="time_pick"><input id="timepicker1" name="timepicker1" type="text"><div class="timepicker_wrap "><div class="arrow_top"></div><div class="time"><div class="prev action-prev"></div><div class="ti_tx"><input class="timepicki-input" type="text"></div><div class="next action-next"></div></div><div class="mins"><div class="prev action-prev"></div><div class="mi_tx"><input class="timepicki-input" type="text"></div><div class="next action-next"></div></div><div class="meridian"><div class="prev action-prev"></div><div class="mer_tx"><input class="timepicki-input" readonly="" type="text"></div><div class="next action-next"></div></div></div></div>
+            <div class="lead">
+              <a href="features.html" class="btn btn-lg btn-success">Learn more</a>
+		    <form target="paypal" action="https://www.paypal.com/cgi-bin/webscr" method="post" style="margin-left:20px; color:#000">
+<input name="cmd" value="_s-xclick" type="hidden">
+<input name="hosted_button_id" value="A9E94N3JAE53S" type="hidden">
+<table>
+<tbody><tr><td><input name="on0" value="select coffee" type="hidden"></td></tr><tr><td><select name="os0" style="height:0; width:0; visibility:hidden;">
+	<option value="1 coffee">1 coffee $3.00 USD</option>
+	<option value="2 coffee">2 coffee $5.00 USD</option>
+	<option value="3 coffee">3 coffee $10.00 USD</option>
+</select> </td></tr>
+</tbody></table>
+<input name="currency_code" value="USD" type="hidden">
+<input value="Buy me a coffee" class="btn btn-lg btn-warning" src="https://www.paypalobjects.com/en_GB/i/btn/btn_cart_LG.gif" name="submit" alt="PayPal – The safer, easier way to pay online." type="submit" border="0">
+<img alt="" src="https://www.paypalobjects.com/en_GB/i/scr/pixel.gif" width="1" height="1" border="0">
+</form>
+            </div>
+          </div>
+
+          <div class="mastfoot hide">
+            <div class="inner">
+              <p>Copyrights <a href="https://github.com/senthilraj/TimePicki">@Timepicki</a>, by <a href="https://twitter.com/senthil2rajan">@senthil2rajan</a>.</p>
+            </div>
+          </div>
+
+        </div>
+
+      </div>
+
+    </div>
+
+    <!-- Bootstrap core JavaScript
+    ================================================== -->
+    <!-- Placed at the end of the document so the pages load faster -->
+   <script src="js/jquery.min.js"></script>
+    <script src="js/timepicki.js"></script>
+    <script>
+	$('#timepicker1').timepicki();
+    </script>
+  
+    <script src="js/bootstrap.min.js"></script>
+  
+
+
+</body>
